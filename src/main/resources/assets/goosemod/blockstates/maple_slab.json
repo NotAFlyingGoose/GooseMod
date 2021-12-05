@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "goosemod:block/maple_slab"
+    },
+    "type=double": {
+      "model": "goosemod:block/maple_planks"
+    },
+    "type=top": {
+      "model": "goosemod:block/maple_slab_top"
+    }
+  }
+}

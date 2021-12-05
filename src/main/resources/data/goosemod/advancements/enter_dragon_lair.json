@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "advancements.goosemod.story.enter_dragon_lair.title"
+    },
+    "description": {
+      "translate": "advancements.goosemod.story.enter_dragon_lair.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "in_lair": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "goosemod:dragon_lair"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_lair"
+    ]
+  ]
+}

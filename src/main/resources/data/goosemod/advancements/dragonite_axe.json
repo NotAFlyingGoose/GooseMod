@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "goosemod:dragonite_axe"
+    ]
+  },
+  "criteria": {
+    "has_dragon_scales": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goosemod:dragon_scales"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "goosemod:dragonite_axe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dragon_scales",
+      "has_the_recipe"
+    ]
+  ]
+}

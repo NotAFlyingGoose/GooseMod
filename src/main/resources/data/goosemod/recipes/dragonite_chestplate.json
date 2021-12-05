@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "goosemod:dragon_scales"
+    }
+  },
+  "result": {
+    "item": "goosemod:dragonite_chestplate"
+  }
+}

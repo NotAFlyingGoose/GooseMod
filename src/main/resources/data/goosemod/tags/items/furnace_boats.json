@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "goosemod:oak_furnace_boat",
+    "goosemod:spruce_furnace_boat",
+    "goosemod:birch_furnace_boat",
+    "goosemod:jungle_furnace_boat",
+    "goosemod:acacia_furnace_boat",
+    "goosemod:dark_oak_furnace_boat"
+  ]
+}

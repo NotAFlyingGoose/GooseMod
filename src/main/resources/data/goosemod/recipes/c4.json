@@ -1,0 +1,21 @@
+{
+  "type": "goosemod:mixer",
+  "container": {
+    "item": "goosemod:nitroglycerin_bucket"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "goosemod:ketamine",
+    "count": 1
+  }
+}

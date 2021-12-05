@@ -1,0 +1,39 @@
+{
+  "parent": "goosemod:enter_dragon_lair",
+  "display": {
+    "icon": {
+      "item": "goosemod:dragon_skull"
+    },
+    "title": {
+      "translate": "advancements.goosemod.story.kill_red_dragon.title"
+    },
+    "description": {
+      "translate": "advancements.goosemod.story.kill_red_dragon.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goosemod:red_dragon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_dragon"
+    ]
+  ]
+}

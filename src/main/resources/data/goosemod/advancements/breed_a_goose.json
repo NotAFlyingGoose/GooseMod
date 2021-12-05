@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "display": {
+    "icon": {
+      "item": "goosemod:goose_egg"
+    },
+    "title": {
+      "translate": "advancements.goosemod.husbandry.breed_a_goose.title"
+    },
+    "description": {
+      "translate": "advancements.goosemod.husbandry.breed_a_goose.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bred": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "goosemod:goose"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bred"
+    ]
+  ]
+}

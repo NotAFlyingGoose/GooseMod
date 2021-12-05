@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "goosemod:ketamine"
+    },
+    "title": {
+      "translate": "advancements.goosemod.husbandry.drugs.title"
+    },
+    "description": {
+      "translate": "advancements.goosemod.husbandry.drugs.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ketamine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goosemod:ketamine"
+            ]
+          }
+        ]
+      }
+    },
+    "meth": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goosemod:meth"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ketamine",
+      "meth"
+    ]
+  ]
+}

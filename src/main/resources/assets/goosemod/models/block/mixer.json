@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "goosemod:block/mixer_front",
+    "down": "goosemod:block/mixer_bottom",
+    "up": "goosemod:block/mixer_top",
+    "east": "goosemod:block/mixer_left",
+    "west": "goosemod:block/mixer_right",
+    "north": "goosemod:block/mixer_front",
+    "south": "goosemod:block/mixer_back"
+  }
+}

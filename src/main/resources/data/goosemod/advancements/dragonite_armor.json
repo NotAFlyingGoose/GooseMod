@@ -1,0 +1,53 @@
+{
+  "parent": "goosemod:kill_red_dragon",
+  "display": {
+    "icon": {
+      "item": "goosemod:dragonite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.goosemod.story.top_gear.title"
+    },
+    "description": {
+      "translate": "advancements.goosemod.story.top_gear.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dragonite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goosemod:dragonite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "goosemod:dragonite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "goosemod:dragonite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "goosemod:dragonite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dragonite_armor"
+    ]
+  ]
+}

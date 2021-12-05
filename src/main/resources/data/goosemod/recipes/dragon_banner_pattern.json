@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "goosemod:dragon_skull"
+    }
+  ],
+  "result": {
+    "item": "goosemod:dragon_banner_pattern"
+  }
+}

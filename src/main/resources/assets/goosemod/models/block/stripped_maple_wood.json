@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "goosemod:block/stripped_maple_log",
+    "side": "goosemod:block/stripped_maple_log"
+  }
+}

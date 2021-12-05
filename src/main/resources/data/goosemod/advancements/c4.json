@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "goosemod:c4"
+    },
+    "title": {
+      "translate": "advancements.goosemod.adventure.c4.title"
+    },
+    "description": {
+      "translate": "advancements.goosemod.adventure.c4.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "c4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goosemod:c4"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "c4"
+    ]
+  ]
+}

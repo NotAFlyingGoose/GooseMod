@@ -1,0 +1,156 @@
+{
+  "entity.crewmate.ambient": {
+    "subtitle": "goosemod.subtitles.entity.crewmate.ambient",
+    "sounds": [
+      "goosemod:crewmate/say1",
+      "goosemod:crewmate/say2",
+      "goosemod:crewmate/say3"
+    ]
+  },
+  "entity.crewmate.death": {
+    "subtitle": "goosemod.subtitles.entity.crewmate.death",
+    "sounds": [ "goosemod:crewmate/death"]
+  },
+  "entity.crewmate.hurt": {
+    "subtitle": "goosemod.subtitles.entity.crewmate.hurt",
+    "sounds": [ "goosemod:crewmate/hurt"]
+  },
+  "entity.crewmate.step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "goosemod:crewmate/step1",
+      "goosemod:crewmate/step2",
+      "goosemod:crewmate/step3",
+      "goosemod:crewmate/step4",
+      "goosemod:crewmate/step5"
+    ]
+  },
+
+  "entity.imposter.ambient": {
+    "subtitle": "goosemod.subtitles.entity.imposter.ambient",
+    "sounds": [
+      "goosemod:imposter/say1",
+      "goosemod:imposter/say2",
+      "goosemod:imposter/say3"
+    ]
+  },
+  "entity.imposter.death": {
+    "subtitle": "goosemod.subtitles.entity.imposter.death",
+    "sounds": [ "goosemod:imposter/death"]
+  },
+  "entity.imposter.hurt": {
+    "subtitle": "goosemod.subtitles.entity.imposter.hurt",
+    "sounds": [ "goosemod:imposter/hurt"]
+  },
+  "entity.imposter.step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "goosemod:imposter/step1",
+      "goosemod:imposter/step2",
+      "goosemod:imposter/step3",
+      "goosemod:imposter/step4",
+      "goosemod:imposter/step5"
+    ]
+  },
+
+  "entity.heisenberg.ambient": {
+    "subtitle": "goosemod.subtitles.entity.heisenberg.ambient",
+    "sounds": [
+      "goosemod:heisenberg/say1",
+      "goosemod:heisenberg/say2",
+      "goosemod:heisenberg/say3"
+    ]
+  },
+  "entity.heisenberg.death": {
+    "subtitle": "goosemod.subtitles.entity.heisenberg.death",
+    "sounds": [ "goosemod:heisenberg/death"]
+  },
+  "entity.heisenberg.hurt": {
+    "subtitle": "goosemod.subtitles.entity.heisenberg.hurt",
+    "sounds": [ "goosemod:heisenberg/hurt"]
+  },
+  "entity.heisenberg.step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "goosemod:heisenberg/step1",
+      "goosemod:heisenberg/step2",
+      "goosemod:heisenberg/step3",
+      "goosemod:heisenberg/step4",
+      "goosemod:heisenberg/step5"
+    ]
+  },
+
+  "entity.lemur.ambient": {
+    "subtitle": "goosemod.subtitles.entity.lemur.ambient",
+    "sounds": [
+      "goosemod:lemur/step1",
+      "goosemod:lemur/step2",
+      "goosemod:lemur/step3",
+      "goosemod:lemur/step4",
+      "goosemod:lemur/step5"
+    ]
+  },
+  "entity.lemur.death": {
+    "subtitle": "goosemod.subtitles.entity.lemur.death",
+    "sounds": [ "goosemod:lemur/death"]
+  },
+  "entity.lemur.hurt": {
+    "subtitle": "goosemod.subtitles.entity.lemur.hurt",
+    "sounds": [
+      "goosemod:lemur/hurt1",
+      "goosemod:lemur/hurt2"
+    ]
+  },
+  "entity.lemur.step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "minecraft:cat/step1",
+      "minecraft:cat/step2",
+      "minecraft:cat/step3",
+      "minecraft:cat/step4",
+      "minecraft:cat/step5"
+    ]
+  },
+
+  "entity.goose.ambient": {
+    "subtitle": "goosemod.subtitles.entity.goose.ambient",
+    "sounds": [
+      "goosemod:goose/say1",
+      "goosemod:goose/say2",
+      "goosemod:goose/say3",
+      "goosemod:goose/say4"
+    ]
+  },
+  "entity.goose.death": {
+    "subtitle": "goosemod.subtitles.entity.goose.death",
+    "sounds": [ "goosemod:goose/death"]
+  },
+  "entity.goose.hurt": {
+    "subtitle": "goosemod.subtitles.entity.goose.hurt",
+    "sounds": [ "goosemod:goose/hurt"]
+  },
+
+  "entity.dragon.roar": {
+    "subtitle": "goosemod.subtitles.entity.dragon.roar",
+    "sounds": [
+      "goosemod:dragon/roar1",
+      "goosemod:dragon/roar2"
+    ]
+  },
+  "entity.dragon.breath": {
+    "subtitle": "goosemod.subtitles.entity.dragon.breath",
+    "sounds": [ "goosemod:dragon/breath" ]
+  },
+  "entity.dragon.sleeping": {
+    "subtitle": "goosemod.subtitles.entity.dragon.sleeping",
+    "sounds": [ "goosemod:dragon/sleeping" ]
+  },
+  "entity.dragon.death": {
+    "subtitle": "goosemod.subtitles.entity.dragon.death",
+    "sounds": [ "goosemod:dragon/death" ]
+  },
+  "entity.dragon.hurt": {
+    "subtitle": "goosemod.subtitles.entity.dragon.hurt",
+    "sounds": [ "goosemod:dragon/hurt" ]
+  }
+}

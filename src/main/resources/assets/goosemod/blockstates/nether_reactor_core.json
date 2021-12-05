@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "reactor_state=stable": {
+      "model": "goosemod:block/stable_nether_reactor_core"
+    },
+    "reactor_state=initialized": {
+      "model": "goosemod:block/initialized_nether_reactor_core"
+    },
+    "reactor_state=finished": {
+      "model": "goosemod:block/finished_nether_reactor_core"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "goosemod:oak_chest_boat",
+    "goosemod:spruce_chest_boat",
+    "goosemod:birch_chest_boat",
+    "goosemod:jungle_chest_boat",
+    "goosemod:acacia_chest_boat",
+    "goosemod:dark_oak_chest_boat"
+  ]
+}

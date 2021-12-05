@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "item": "minecraft:dark_oak_boat"
+    }
+  ],
+  "group": "furnace_boat",
+  "result": {
+    "item": "goosemod:dark_oak_furnace_boat"
+  }
+}

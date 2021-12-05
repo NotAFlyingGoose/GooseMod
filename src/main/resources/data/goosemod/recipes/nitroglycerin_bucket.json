@@ -1,0 +1,24 @@
+{
+  "type": "goosemod:mixer",
+  "container": {
+    "item": "minecraft:water_bucket"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 3
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 3
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "goosemod:nitroglycerin_bucket",
+    "count": 1
+  }
+}

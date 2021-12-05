@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@@@",
+    " % ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_boat"
+    },
+    "%": {
+      "item": "minecraft:stick"
+    },
+    "@": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "group": "long_boat",
+  "result": {
+    "item": "goosemod:dark_oak_long_boat"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_chest"
+    },
+    {
+      "item": "minecraft:oak_boat"
+    }
+  ],
+  "group": "ender_chest_boat",
+  "result": {
+    "item": "goosemod:oak_ender_chest_boat"
+  }
+}

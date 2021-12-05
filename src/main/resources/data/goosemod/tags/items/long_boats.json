@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "goosemod:oak_long_boat",
+    "goosemod:spruce_long_boat",
+    "goosemod:birch_long_boat",
+    "goosemod:jungle_long_boat",
+    "goosemod:acacia_long_boat",
+    "goosemod:dark_oak_long_boat"
+  ]
+}

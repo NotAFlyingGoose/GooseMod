@@ -1,0 +1,39 @@
+{
+  "parent": "goosemod:summon_herobrine",
+  "display": {
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "advancements.goosemod.story.kill_herobrine.title"
+    },
+    "description": {
+      "translate": "advancements.goosemod.story.kill_herobrine.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_herobrine": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goosemod:herobrine"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_herobrine"
+    ]
+  ]
+}

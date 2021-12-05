@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "goosemod:block/maple_planks",
+    "top": "goosemod:block/maple_planks",
+    "side": "goosemod:block/maple_planks"
+  }
+}

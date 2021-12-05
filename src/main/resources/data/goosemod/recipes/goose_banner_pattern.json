@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "goosemod:goose_egg"
+    }
+  ],
+  "result": {
+    "item": "goosemod:goose_banner_pattern"
+  }
+}
